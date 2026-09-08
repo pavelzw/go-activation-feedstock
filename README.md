@@ -227,59 +227,59 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strcgogo_variant_ver2.3.0</td>
+              <td>osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strcgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strcgogo_variant_ver2.3.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strcgo" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgogo_variant_ver2.2.0</td>
+              <td>osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgogo_variant_ver2.2.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgo" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgogo_variant_ver2.3.0</td>
+              <td>osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgogo_variant_ver2.3.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgo" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgogo_variant_ver2.2.0</td>
+              <td>osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgogo_variant_ver2.2.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgo" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strcgogo_variant_ver2.3.0</td>
+              <td>osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strcgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strcgogo_variant_ver2.3.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strcgo" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgogo_variant_ver2.2.0</td>
+              <td>osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgogo_variant_ver2.2.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHamd64cross_target_platformosx-64go_variant_strnocgo" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgogo_variant_ver2.3.0</td>
+              <td>osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgogo_variant_ver2.3.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strcgo" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgogo_variant_ver2.2.0</td>
+              <td>osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgo</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13693&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgogo_variant_ver2.2.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/go-activation-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_GOARCHarm64cross_target_platformosx-arm64go_variant_strnocgo" alt="variant">
                 </a>
               </td>
             </tr>

@@ -28,14 +28,8 @@ GOARCH:
 go_variant_str:
   - cgo
   - nocgo
-go_variant_ver:
-  - 2.3.0
-  - 2.2.0
 zip_keys:
   -
     - cross_target_platform
     - GOOS
     - GOARCH
-  -
-    - go_variant_str
-    - go_variant_ver
