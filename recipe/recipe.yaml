@@ -27,8 +27,7 @@ build:
 
 requirements:
   run:
-    - go ${{ version }}.*
-    - _go_select ==${{ go_variant_ver }} ${{ go_variant_str }}
+    - go ${{ version }}.* ${{ go_variant_str }}_*
   run_exports:
     strong:
       - if: cross_target_platform == "linux-64" and go_variant_str == "cgo"

@@ -26,6 +26,32 @@ eval "$(pixi shell-hook --environment build)"
 mv pixi.toml.bak pixi.toml
 ( endgroup "Provisioning base env with pixi" ) 2> /dev/null
 
+( startgroup "Repairing perl on osx-arm64" ) 2> /dev/null
+# TEMPORARY WORKAROUND for https://github.com/conda-forge/perl-feedstock/issues/78 --
+# remove once conda-forge ships a fixed perl for osx-arm64.
+# perl 5.32.1 build 8_h88b7d96_perl5 (osx-arm64) ships bin/perl and bin/perl5.32.1
+# without any LC_RPATH, so their @rpath/perl5/5.32/core_perl/CORE/libperl.dylib
+# dependency cannot be resolved and every perl invocation aborts. perl is pulled into
+# the build env via git -> conda-forge-ci-setup, and conda-forge-ci-setup's
+# download_osx_sdk.sh verifies the SDK tarball with `shasum`, which is a perl script --
+# so the job dies before the recipe is even built. Build 7 of the same version has
+# `LC_RPATH @loader_path/../lib/`, so put that back and re-sign (arm64 binaries need a
+# valid signature). Note: a `conda-smithy rerender` will drop this block.
+if [[ "$(uname -m)" == "arm64" ]]; then
+  perl_bin="$(command -v perl || true)"
+  # only touch the perl from the pixi env, never a system/SIP-protected one
+  if [[ "${perl_bin}" == */.pixi/envs/build/bin/perl ]] && ! "${perl_bin}" -e 'exit 0' 2>/dev/null; then
+    echo "perl at ${perl_bin} is broken, adding the missing rpath"
+    for perl_exe in "${perl_bin}" "${perl_bin}"5.*; do
+      [[ -f "${perl_exe}" ]] || continue
+      /usr/bin/install_name_tool -add_rpath "@loader_path/../lib/" "${perl_exe}"
+      /usr/bin/codesign --force --sign - "${perl_exe}"
+    done
+    "${perl_bin}" -e 'print "perl is usable again\n"'
+  fi
+fi
+( endgroup "Repairing perl on osx-arm64" ) 2> /dev/null
+
 ( startgroup "Configuring conda" ) 2> /dev/null
 export CONDA_SOLVER="libmamba"
 export CONDA_LIBMAMBA_SOLVER_NO_CHANNELS_FROM_INSTALLED=1
